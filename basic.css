@@ -106,13 +106,14 @@ border-bottom-left-radius: 3rem;
 }
  
 .hero-head {
-   padding : 1rem 1rem;
+   padding : 1rem 0rem;
     text-align: left;
 
 
 }
 .heads {
     text-align: center;
+   
 }
 /**sections**/
 
@@ -136,5 +137,5 @@ padding  : 2rem 2rem ;
 
 .project-item {
 
-    padding : 2rem 3rem;
+    padding : 2rem 1rem;
 }
