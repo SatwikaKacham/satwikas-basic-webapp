@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap');
+
+body {
+    font-family: 'Dancing Script' , cursive;
+    font-size : 20px;
+    font-weight: 500;
+  /* background: linear-gradient(60deg,lightcoral,whitesmoke); */
+  
+}
+ 
+:root {
+    --secoundary-color : #0B2027;
+    /* --primary-color : #DB2777; */
+      --primary-color:  #16414f;;    
+     /* --primary-color : #FCA5A5;  */
+    /* --primary-color : #DDBB77; */
+    
+}
+
+ #myhead {
+     /* background : linear-gradient(30deg,#16414f,grey); */
+     background-color: var(--primary-color) ;
+      border-bottom-left-radius: 3rem;
+      text-align: center;
+      padding : 1rem 1rem;
+      color : white;
+     
+ }
+ .container-fluid {
+     padding: 1rem 1rem;
+
+ }
+
+ .container-center {
+    text-align : center;
+    padding: 1rem 1rem;
+    background-color: palevioletred;
+
+ }
+
+ /**links**/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    
+}
+ .primary{
+     background-color: var(--primary-color);
+     border-radius: 1rem;
+     color : white;
+ }
+
+ .secoundary {
+   
+    
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+ }
+
+.list
+{
+    list-style-type:none;
+
+}
+
+.initem {
+ display :inline;
+ padding : 0.4rem 0.4rem;
+
+}
+.unordered
+{
+    color :violet;
+
+}
+
+.inline {
+    color : pink;
+}
+
+.bar {
+
+padding : 1rem 1rem ;
+background-color: var(--primary-color);
+text-decoration: none;
+border-bottom-left-radius: 3rem;
+}
+
+.bar-items {
+    text-align: right;
+}
+
+.item {
+    text-decoration: none;
+    color :white;
+
+    
+}
+.active {
+    font-weight:bolder;
+}
+ 
+.hero {
+    max-width: 400px;
+    margin: center;
+    padding : 3rem 3rem;
+    
+}
+ 
+.hero-head {
+   padding : 1rem 1rem;
+    text-align: center;
+
+
+}
+/**sections**/
+
+.section  {
+text-align: center;
+padding  : 2rem 2rem ; 
+
+}
+
+.ow {
+    background-color:#F3F4F6;
+   
+}
+
+/** fotter **/
+.foot {
+     background-color: var(--primary-color); 
+    padding : 2rem 2rem;
+    /* background: linear-gradient(90deg,var(--primary-color),pink); */
+    border-top-right-radius: 3rem;
+}
+
