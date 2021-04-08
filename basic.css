@@ -97,19 +97,30 @@ border-bottom-left-radius: 3rem;
 .active {
     font-weight:bolder;
 }
- 
-.hero {
-    max-width: 400px;
+   
+@media screen and (max-width : 600px)
+{
+header.hero-head{
     text-align: left;
-    padding : 2rem 0rem;
+    padding : 2rem 2rem;
     
 }
- 
+}
+
+@media screen and (max-width : 600px)
+{
+img.hero {
+    max-width: 400px;
+}
+}
+
+
+.hero {
+    max-width: 700px;
+}
 .hero-head {
-   padding : 1rem 1rem;
-    text-align: left;
-
-
+    text-align: center;
+   padding : 2rem 1rem;
 }
 .heads {
     text-align: center;
