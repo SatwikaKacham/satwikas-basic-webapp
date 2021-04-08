@@ -102,7 +102,7 @@ border-bottom-left-radius: 3rem;
 {
 header.hero-head{
     text-align: left;
-    padding : 2rem 1rem;
+    padding : 2rem 0rem;
     
 }
 }
@@ -111,6 +111,7 @@ header.hero-head{
 {
 img.hero {
     max-width: 400px;
+    
 }
 }
 
