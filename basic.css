@@ -11,7 +11,7 @@ body {
 :root {
     
        --primary-color:  #16414f;
-     
+      --secoundary:  #33c2b1;
 }
 
  #myhead {
@@ -153,3 +153,4 @@ padding  : 2rem 2rem ;
 
     padding : 2rem 1rem;
 }
+
