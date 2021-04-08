@@ -39,6 +39,7 @@ body {
 .link {
     text-decoration: none;
     padding: 0.5rem 0.5rem;
+    text-align: center;
     
 }
  .primary{
@@ -91,6 +92,7 @@ border-bottom-left-radius: 3rem;
 .item {
     text-decoration: none;
     color :white;
+    
 
     
 }
