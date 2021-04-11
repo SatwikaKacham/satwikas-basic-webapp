@@ -38,7 +38,7 @@ body {
  /**links**/
 .link {
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.1rem 0.5rem;
     text-align: center;
     
 }
@@ -64,7 +64,7 @@ body {
 
 .initem {
  display :inline;
- padding : 0.4rem 0.4rem;
+ padding : 0rem 0.4rem;
 
 }
 .unordered
@@ -79,7 +79,7 @@ body {
 
 .bar {
 
-padding : 1rem 1rem ;
+padding : 0.1rem 0.5rem ;
 background-color: var(--primary-color);
 text-decoration: none;
 border-bottom-left-radius: 3rem;
@@ -145,12 +145,15 @@ padding  : 2rem 2rem ;
 /** fotter **/
 .foot {
      background-color: var(--primary-color); 
-    padding : 2rem 1rem;
+    padding : 0.1rem 0.1rem 0rem 0.1rem;
     border-top-right-radius: 3rem;
 }
 
 .project-item {
 
     padding : 2rem 1rem;
+}
+h3 {
+    padding-left: 0.3rem;
 }
 
