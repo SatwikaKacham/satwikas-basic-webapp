@@ -10,9 +10,8 @@ body {
  
 :root {
        
-       --primary-color: #13737b; 
-      /* --secoundary:rgb(27, 27, 27); */
-      /* --secoundary:rgb(41, 41, 41); */
+       /* --primary-color: #13737b;  */
+       --primary-color: #1697a3;
         --secoundary:rgb(22, 19, 19);
       /* --third:rgb(179, 41, 64); */
       --third:rgb(143, 55, 70);
