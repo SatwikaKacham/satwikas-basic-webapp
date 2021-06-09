@@ -5,13 +5,17 @@ body {
     font-size : 20px;
     font-weight: 500;
   margin :0px;
-  
+  background-color:var(--primary-color) ;
 }
  
 :root {
-    
-       --primary-color:  #16414f;
-      --secoundary:  #33c2b1;
+       
+       --primary-color: #13737b; 
+      /* --secoundary:rgb(27, 27, 27); */
+      /* --secoundary:rgb(41, 41, 41); */
+        --secoundary:rgb(22, 19, 19);
+      /* --third:rgb(179, 41, 64); */
+      --third:rgb(143, 55, 70);
 }
 
  #myhead {
@@ -38,24 +42,39 @@ body {
  /**links**/
 .link {
     text-decoration: none;
-    padding: 0.2rem 0.5rem;
+     padding: 0.3rem 0.5rem; 
     text-align: center;
+    margin: 0px;
     
 }
  .primary{
-     background-color: var(--primary-color);
-     border-radius: 1rem;
-     color : white;
+       border-radius: 0.5rem;  
+      color : white; 
+     /* background-color:#49c7d3; */
+     background-color:var(--secoundary);
+     /* box-shadow: 1px 1px 6px  rgb(39, 39, 39) ; */
+
+ }
+
+ .primary:hover{
+    
+      /* background-color:var(--primary-color); */
+      box-shadow: 1px 1px 6px  rgb(39, 39, 39) ;
+     
  }
 
  .secoundary {
-   
-    
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 1rem;
+    color: var(--secoundary);
+    border: 2px solid var(--secoundary);
+    border-radius: 0.5rem;
+    background-color:rgb(233, 227, 233);
+    font-weight: bolder;
+    padding: 0.2rem 0.4rem;
  }
-
+ .secoundary:hover{
+    box-shadow: 1px 1px 6px  rgb(39, 39, 39) ;
+ }
+   
 .list
 {
     list-style-type:none;
@@ -80,11 +99,17 @@ body {
 .bar {
 
 padding : 0.1rem 0.5rem ;
-background-color: var(--primary-color);
+background-color: var(--secoundary);
 text-decoration: none;
 border-bottom-left-radius: 3rem;
+box-shadow: 3px 8px 12px rgb(66, 139, 139);
 }
-
+.project-bar{
+    background-color: var(--secoundary);
+    box-shadow: 3px 8px 12px rgb(66, 139, 139);
+padding : 0.1rem 0.5rem ;
+border-bottom-left-radius: 3rem;
+}
 .bar-items {
     text-align: right;
 }
@@ -92,12 +117,14 @@ border-bottom-left-radius: 3rem;
 .item {
     text-decoration: none;
     color :white;
-    
+    padding:0px;
 
     
 }
 .active {
     font-weight:bolder;
+    color:white;
+    font-size: larger;
 }
    
 @media screen and (max-width : 600px)
@@ -112,14 +139,20 @@ header.hero-head{
 @media screen and (max-width : 600px)
 {
 img.hero {
-    max-width: 400px;
+    max-width: 250px;
+    text-align: center;
     
 }
+
 }
 
 
 .hero {
-    max-width: 700px;
+    max-width: 500px;
+     /* background-color: white;  */
+     padding:20px;
+    
+    
 }
 .hero-head {
     text-align: center;
@@ -128,7 +161,21 @@ img.hero {
 .heads {
     text-align: center;
     list-style-type: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:0px;
+
    
+   
+}
+.blog{
+justify-content: center;
+
+}
+.blogHero{
+    max-width: 400px;
+    padding-top: 30px;
 }
 /**sections**/
 
@@ -139,24 +186,65 @@ padding  : 2rem 2rem ;
 }
 
 .ow {
-     background-color:#F3F4F6; 
-   /* background-color:  #DBEAFE; */
+      background-color:#F3F4F6;  
+    /* background-color:  rgb(233, 227, 233);  */
    
 }
 
 /** fotter **/
 .foot {
-     background-color: var(--primary-color); 
-    padding : 0.1rem 0.1rem 0.1rem 0.1rem;
+     background-color: var(--secoundary); 
+    padding : 1px 0px 0px 0px;
     border-top-right-radius: 3rem;
+    margin:0;
+    box-shadow: 30px 0px 12px rgb(66, 139, 139);
+
 }
 
 .project-item {
 
     padding : 2rem 1rem 3rem 1rem;
+    margin:40px;
+    border-radius: 2rem;
+    max-width:400px;
+    background-color:rgb(233, 227, 233);
+    box-shadow: 3px 4px 6px  rgb(122, 197, 216) ;
     
 }
+.project-head{
+    text-align: center;
+    color:black;
+}
+/* .blog-item {
+
+    padding : 2rem 1rem 3rem 1rem;
+    margin:40px;
+    border-radius: 2rem;
+    max-width:400px;
+    background-color:rgb(233, 227, 233);
+    box-shadow: 3px 4px 6px  rgb(122, 197, 216) ;
+    
+} */
 h3 {
     padding-left: 0.3rem;
 }
-
+.logo{
+    font-size: 1.8rem;
+    padding:15px ;
+    padding-bottom: 10px;
+}
+.tech{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+  padding:0px;
+}
+.tech-item{
+    list-style-type:none;
+}
+.tech div{
+padding:15px;
+padding-bottom: 5px;
+color:rgb(169, 209, 216);
+}
