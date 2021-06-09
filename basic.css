@@ -129,30 +129,6 @@ border-bottom-left-radius: 3rem;
     font-size: larger;
 }
    
-@media screen and (max-width : 600px)
-{
-header.hero-head{
-    text-align: left;
-    padding : 2rem 0.5rem;
-    
-}
-:root{
-    --primary-color: #1c7ca8;
-}
-.bar {
-    box-shadow: 3px 8px 12px rgb(63, 137, 180); 
-}
-.project-bar{
-    box-shadow: 3px 8px 12px rgb(63, 137, 180);   
-}
-.foot{
-    box-shadow: 30px 0px 12px rgb(63, 137, 180);
-}
-.project-item{
-    box-shadow: 3px 4px 6px  rgb(124, 186, 223) ;
-}
-
-}
 
 @media screen and (max-width : 600px)
 {
@@ -258,3 +234,28 @@ padding:15px;
 padding-bottom: 5px;
 color:rgb(169, 209, 216);
 }
+@media screen and (max-width : 600px)
+{
+header.hero-head{
+    text-align: left;
+    padding : 2rem 0.5rem;
+    
+}
+:root{
+    --primary-color: #1c7ca8;
+}
+.bar {
+    box-shadow: 3px 8px 12px rgb(63, 137, 180); 
+}
+.project-bar{
+    box-shadow: 3px 8px 12px rgb(63, 137, 180);   
+}
+ .foot{
+    box-shadow: 30px 0px 12px rgb(63, 137, 180);
+} 
+.project-item{
+    box-shadow: 3px 4px 6px  rgb(124, 186, 223) ;
+}
+
+}
+
