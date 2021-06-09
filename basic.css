@@ -15,6 +15,7 @@ body {
         --secoundary:rgb(22, 19, 19);
       /* --third:rgb(179, 41, 64); */
       --third:rgb(143, 55, 70);
+      --light:rgb(66, 139, 139);
 }
 
  #myhead {
@@ -207,7 +208,8 @@ padding  : 2rem 2rem ;
     border-radius: 2rem;
     max-width:400px;
     background-color:rgb(233, 227, 233);
-    box-shadow: 3px 4px 6px  rgb(122, 197, 216) ;
+    /* box-shadow: 3px 4px 6px  rgb(122, 197, 216) ; */
+    box-shadow: 3px 4px 6px  rgb(124, 186, 223) ;
     
 }
 .project-head{
