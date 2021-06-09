@@ -103,7 +103,7 @@ background-color: var(--secoundary);
 text-decoration: none;
 border-bottom-left-radius: 3rem;
 /* box-shadow: 3px 8px 12px rgb(66, 139, 139); */
-box-shadow: 3px 8px 12px rgb(81, 173, 226);
+box-shadow: 3px 8px 12px rgb(71, 153, 201);
 }
 .project-bar{
     background-color: var(--secoundary);
