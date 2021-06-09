@@ -10,8 +10,8 @@ body {
  
 :root {
        
-       /* --primary-color: #13737b;  */
-       --primary-color: #1c7ca8;
+        --primary-color: #13737b; 
+       /* --primary-color: #1c7ca8; */
         --secoundary:rgb(22, 19, 19);
       /* --third:rgb(179, 41, 64); */
       --third:rgb(143, 55, 70);
@@ -102,13 +102,13 @@ padding : 0.1rem 0.5rem ;
 background-color: var(--secoundary);
 text-decoration: none;
 border-bottom-left-radius: 3rem;
-/* box-shadow: 3px 8px 12px rgb(66, 139, 139); */
-box-shadow: 3px 8px 12px rgb(63, 137, 180);
+ box-shadow: 3px 8px 12px rgb(66, 139, 139); 
+/* box-shadow: 3px 8px 12px rgb(63, 137, 180); */
 }
 .project-bar{
     background-color: var(--secoundary);
-    /* box-shadow: 3px 8px 12px rgb(66, 139, 139); */
-    box-shadow: 3px 8px 12px rgb(63, 137, 180);
+     box-shadow: 3px 8px 12px rgb(66, 139, 139); 
+    /* box-shadow: 3px 8px 12px rgb(63, 137, 180); */
 padding : 0.1rem 0.5rem ;
 border-bottom-left-radius: 3rem;
 }
@@ -136,6 +136,22 @@ header.hero-head{
     padding : 2rem 0.5rem;
     
 }
+:root{
+    --primary-color: #1c7ca8;
+}
+.bar {
+    box-shadow: 3px 8px 12px rgb(63, 137, 180); 
+}
+.project-bar{
+    box-shadow: 3px 8px 12px rgb(63, 137, 180);   
+}
+.foot{
+    box-shadow: 30px 0px 12px rgb(63, 137, 180);
+}
+.project-item{
+    box-shadow: 3px 4px 6px  rgb(124, 186, 223) ;
+}
+
 }
 
 @media screen and (max-width : 600px)
@@ -151,7 +167,6 @@ img.hero {
 
 .hero {
     max-width: 500px;
-     /* background-color: white;  */
      padding:20px;
     
     
@@ -199,8 +214,8 @@ padding  : 2rem 2rem ;
     padding : 1px 0px 0px 0px;
     border-top-right-radius: 3rem;
     margin:0;
-    /* box-shadow: 30px 0px 12px rgb(66, 139, 139); */
-    box-shadow: 30px 0px 12px rgb(63, 137, 180);
+     box-shadow: 30px 0px 12px rgb(66, 139, 139); 
+    /* box-shadow: 30px 0px 12px rgb(63, 137, 180); */
 
 }
 
@@ -211,8 +226,8 @@ padding  : 2rem 2rem ;
     border-radius: 2rem;
     max-width:400px;
     background-color:rgb(233, 227, 233);
-    /* box-shadow: 3px 4px 6px  rgb(122, 197, 216) ; */
-    box-shadow: 3px 4px 6px  rgb(124, 186, 223) ;
+     box-shadow: 3px 4px 6px  rgb(122, 197, 216) ; 
+    /* box-shadow: 3px 4px 6px  rgb(124, 186, 223) ; */
     
 }
 .project-head{
