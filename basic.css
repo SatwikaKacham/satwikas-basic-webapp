@@ -203,7 +203,7 @@ padding  : 2rem 2rem ;
 }
 .project-head{
     text-align: center;
-    color:black;
+    color:var(--secoundary);
 }
 
 h3 {
@@ -229,6 +229,15 @@ padding:15px;
 padding-bottom: 5px;
 color:rgb(169, 209, 216);
 }
+.gmail-phone{
+    color:var(--secoundary);
+    font-size: 0px;
+  }
+
+  .gmail-laptop{
+    font-size: 30px;
+  }
+
 @media screen and (max-width : 600px)
 {
 header.hero-head{
@@ -259,6 +268,16 @@ img.hero {
 header h1{
     font-size:35px;
 }
+.gmail-laptop{
+    color:var(--secoundary);
+    font-size: 0px;
+    margin:0px
+}
 
+.gmail-phone{
+    font-size: 30px;
+    color:white;
+    margin:0;
+}
 }
 
